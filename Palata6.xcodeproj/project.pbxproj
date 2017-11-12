@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83E5C69B2F55872DFD3F3C52 /* Pods_Palata6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50004DBE606DBFF730713924 /* Pods_Palata6.framework */; };
+		CC61FBD11FB8769500321989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC61FBD01FB8769500321989 /* AppDelegate.swift */; };
+		CC61FBD81FB8769500321989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC61FBD71FB8769500321989 /* Assets.xcassets */; };
+		CC61FBE31FB877A300321989 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC61FBE21FB877A300321989 /* LaunchScreen.xib */; };
+		CC61FBE61FB8799700321989 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC61FBE41FB8799700321989 /* MainController.swift */; };
+		CC61FBE71FB8799700321989 /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC61FBE51FB8799700321989 /* MainController.xib */; };
+		CCB2769D1FB889B000734E9D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB2769C1FB889B000734E9D /* Settings.swift */; };
+		CCB276A11FB88A7C00734E9D /* GroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB2769F1FB88A7B00734E9D /* GroupCell.xib */; };
+		CCB276A21FB88A7C00734E9D /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276A01FB88A7B00734E9D /* GroupCell.swift */; };
+		CCB276A51FB88ABF00734E9D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276A41FB88ABF00734E9D /* Utils.swift */; };
+		CCB276A81FB8907100734E9D /* PalataBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276A71FB8907100734E9D /* PalataBaseController.swift */; };
+		CCB276AA1FB8956400734E9D /* VkPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276A91FB8956400734E9D /* VkPublic.swift */; };
+		CCB276AC1FB8957B00734E9D /* VkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276AB1FB8957B00734E9D /* VkError.swift */; };
+		CCB276AE1FB8959400734E9D /* VkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276AD1FB8959400734E9D /* VkResponse.swift */; };
+		CCB276B01FB896D400734E9D /* VkItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276AF1FB896D400734E9D /* VkItems.swift */; };
+		CCB276B21FB896ED00734E9D /* VkUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276B11FB896ED00734E9D /* VkUser.swift */; };
+		CCB276B41FB89B4100734E9D /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276B31FB89B4100734E9D /* AlertHelper.swift */; };
+		CCB276BB1FB89FD200734E9D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276B91FB89FD200734E9D /* WebViewController.swift */; };
+		CCB276BC1FB89FD200734E9D /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB276BA1FB89FD200734E9D /* WebViewController.xib */; };
+		CCB276BE1FB8A21200734E9D /* VkPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276BD1FB8A21200734E9D /* VkPost.swift */; };
+		CCB276C01FB8A23300734E9D /* VkLikes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276BF1FB8A23300734E9D /* VkLikes.swift */; };
+		CCB276C21FB8A24900734E9D /* VkViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276C11FB8A24900734E9D /* VkViews.swift */; };
+		CCB276C41FB8A25C00734E9D /* VkAttachments.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276C31FB8A25C00734E9D /* VkAttachments.swift */; };
+		CCB276C61FB8A26C00734E9D /* VkPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276C51FB8A26C00734E9D /* VkPhoto.swift */; };
+		CCB276CB1FB8ADBC00734E9D /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB276C91FB8ADBC00734E9D /* FeedCell.xib */; };
+		CCB276CC1FB8ADBC00734E9D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276CA1FB8ADBC00734E9D /* FeedCell.swift */; };
+		CCB276E51FB8B21B00734E9D /* VkArrayResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276E41FB8B21B00734E9D /* VkArrayResponse.swift */; };
+		CCB276EF1FB8BDEB00734E9D /* VkErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB276EE1FB8BDEB00734E9D /* VkErrorResponse.swift */; };
+		CCB276F31FB8C33E00734E9D /* noavatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB276F21FB8C33E00734E9D /* noavatar.jpg */; };
+		CCDA3BEA1FB87D3F00808FB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA3BE91FB87D3F00808FB4 /* Constants.swift */; };
+		CCDA3BEC1FB87D5A00808FB4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA3BEB1FB87D5A00808FB4 /* Extensions.swift */; };
+		CCDA3BF01FB87DB800808FB4 /* GroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA3BEE1FB87DB800808FB4 /* GroupController.swift */; };
+		CCDA3BF11FB87DB800808FB4 /* GroupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDA3BEF1FB87DB800808FB4 /* GroupController.xib */; };
+		CCDA3BF41FB87DC900808FB4 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA3BF21FB87DC900808FB4 /* FeedController.swift */; };
+		CCDA3BF51FB87DC900808FB4 /* FeedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDA3BF31FB87DC900808FB4 /* FeedController.xib */; };
+		CCDA3BF81FB87DD800808FB4 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA3BF61FB87DD800808FB4 /* SettingsController.swift */; };
+		CCDA3BF91FB87DD800808FB4 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDA3BF71FB87DD800808FB4 /* SettingsController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50004DBE606DBFF730713924 /* Pods_Palata6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Palata6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8476822FD8FF38825E7B6EE /* Pods-Palata6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Palata6.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Palata6/Pods-Palata6.debug.xcconfig"; sourceTree = "<group>"; };
+		CC61FBCD1FB8769500321989 /* Palata6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Palata6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC61FBD01FB8769500321989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC61FBD71FB8769500321989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC61FBDC1FB8769500321989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC61FBE21FB877A300321989 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		CC61FBE41FB8799700321989 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		CC61FBE51FB8799700321989 /* MainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainController.xib; sourceTree = "<group>"; };
+		CCB2769C1FB889B000734E9D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		CCB2769F1FB88A7B00734E9D /* GroupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupCell.xib; sourceTree = "<group>"; };
+		CCB276A01FB88A7B00734E9D /* GroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		CCB276A41FB88ABF00734E9D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		CCB276A71FB8907100734E9D /* PalataBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalataBaseController.swift; sourceTree = "<group>"; };
+		CCB276A91FB8956400734E9D /* VkPublic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkPublic.swift; sourceTree = "<group>"; };
+		CCB276AB1FB8957B00734E9D /* VkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkError.swift; sourceTree = "<group>"; };
+		CCB276AD1FB8959400734E9D /* VkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkResponse.swift; sourceTree = "<group>"; };
+		CCB276AF1FB896D400734E9D /* VkItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkItems.swift; sourceTree = "<group>"; };
+		CCB276B11FB896ED00734E9D /* VkUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkUser.swift; sourceTree = "<group>"; };
+		CCB276B31FB89B4100734E9D /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		CCB276B91FB89FD200734E9D /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		CCB276BA1FB89FD200734E9D /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		CCB276BD1FB8A21200734E9D /* VkPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkPost.swift; sourceTree = "<group>"; };
+		CCB276BF1FB8A23300734E9D /* VkLikes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkLikes.swift; sourceTree = "<group>"; };
+		CCB276C11FB8A24900734E9D /* VkViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkViews.swift; sourceTree = "<group>"; };
+		CCB276C31FB8A25C00734E9D /* VkAttachments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkAttachments.swift; sourceTree = "<group>"; };
+		CCB276C51FB8A26C00734E9D /* VkPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkPhoto.swift; sourceTree = "<group>"; };
+		CCB276C91FB8ADBC00734E9D /* FeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedCell.xib; sourceTree = "<group>"; };
+		CCB276CA1FB8ADBC00734E9D /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		CCB276E41FB8B21B00734E9D /* VkArrayResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VkArrayResponse.swift; sourceTree = "<group>"; };
+		CCB276EE1FB8BDEB00734E9D /* VkErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkErrorResponse.swift; sourceTree = "<group>"; };
+		CCB276F21FB8C33E00734E9D /* noavatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noavatar.jpg; sourceTree = "<group>"; };
+		CCDA3BE91FB87D3F00808FB4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CCDA3BEB1FB87D5A00808FB4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CCDA3BEE1FB87DB800808FB4 /* GroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupController.swift; sourceTree = "<group>"; };
+		CCDA3BEF1FB87DB800808FB4 /* GroupController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupController.xib; sourceTree = "<group>"; };
+		CCDA3BF21FB87DC900808FB4 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		CCDA3BF31FB87DC900808FB4 /* FeedController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedController.xib; sourceTree = "<group>"; };
+		CCDA3BF61FB87DD800808FB4 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		CCDA3BF71FB87DD800808FB4 /* SettingsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsController.xib; sourceTree = "<group>"; };
+		D0444EBB7F9DBA417FF8D095 /* Pods-Palata6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Palata6.release.xcconfig"; path = "Pods/Target Support Files/Pods-Palata6/Pods-Palata6.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC61FBCA1FB8769500321989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E5C69B2F55872DFD3F3C52 /* Pods_Palata6.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76C1B93547FBFAD161E8E4B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8476822FD8FF38825E7B6EE /* Pods-Palata6.debug.xcconfig */,
+				D0444EBB7F9DBA417FF8D095 /* Pods-Palata6.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC61FBC41FB8769500321989 = {
+			isa = PBXGroup;
+			children = (
+				CC61FBCF1FB8769500321989 /* Palata6 */,
+				CC61FBCE1FB8769500321989 /* Products */,
+				76C1B93547FBFAD161E8E4B6 /* Pods */,
+				DE4F07F63687C5C24C6113AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC61FBCE1FB8769500321989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC61FBCD1FB8769500321989 /* Palata6.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC61FBCF1FB8769500321989 /* Palata6 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB276F21FB8C33E00734E9D /* noavatar.jpg */,
+				CCB276A31FB88AA500734E9D /* models */,
+				CCDA3BED1FB87DA400808FB4 /* ui */,
+				CCDA3BE81FB87D2C00808FB4 /* utils */,
+				CC61FBD01FB8769500321989 /* AppDelegate.swift */,
+				CC61FBD71FB8769500321989 /* Assets.xcassets */,
+				CC61FBDC1FB8769500321989 /* Info.plist */,
+				CC61FBE21FB877A300321989 /* LaunchScreen.xib */,
+				CCB276A71FB8907100734E9D /* PalataBaseController.swift */,
+			);
+			path = Palata6;
+			sourceTree = "<group>";
+		};
+		CCB2769E1FB88A5B00734E9D /* groups */ = {
+			isa = PBXGroup;
+			children = (
+				CCB276A01FB88A7B00734E9D /* GroupCell.swift */,
+				CCB2769F1FB88A7B00734E9D /* GroupCell.xib */,
+				CCDA3BEE1FB87DB800808FB4 /* GroupController.swift */,
+				CCDA3BEF1FB87DB800808FB4 /* GroupController.xib */,
+			);
+			path = groups;
+			sourceTree = "<group>";
+		};
+		CCB276A31FB88AA500734E9D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				CCB276E41FB8B21B00734E9D /* VkArrayResponse.swift */,
+				CCB276C31FB8A25C00734E9D /* VkAttachments.swift */,
+				CCB276AB1FB8957B00734E9D /* VkError.swift */,
+				CCB276AF1FB896D400734E9D /* VkItems.swift */,
+				CCB276BF1FB8A23300734E9D /* VkLikes.swift */,
+				CCB276C51FB8A26C00734E9D /* VkPhoto.swift */,
+				CCB276BD1FB8A21200734E9D /* VkPost.swift */,
+				CCB276A91FB8956400734E9D /* VkPublic.swift */,
+				CCB276AD1FB8959400734E9D /* VkResponse.swift */,
+				CCB276B11FB896ED00734E9D /* VkUser.swift */,
+				CCB276C11FB8A24900734E9D /* VkViews.swift */,
+				CCB276EE1FB8BDEB00734E9D /* VkErrorResponse.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		CCB276B51FB89E7D00734E9D /* feed */ = {
+			isa = PBXGroup;
+			children = (
+				CCB276B61FB89FAB00734E9D /* web */,
+				CCB276CA1FB8ADBC00734E9D /* FeedCell.swift */,
+				CCB276C91FB8ADBC00734E9D /* FeedCell.xib */,
+				CCDA3BF21FB87DC900808FB4 /* FeedController.swift */,
+				CCDA3BF31FB87DC900808FB4 /* FeedController.xib */,
+			);
+			path = feed;
+			sourceTree = "<group>";
+		};
+		CCB276B61FB89FAB00734E9D /* web */ = {
+			isa = PBXGroup;
+			children = (
+				CCB276B91FB89FD200734E9D /* WebViewController.swift */,
+				CCB276BA1FB89FD200734E9D /* WebViewController.xib */,
+			);
+			path = web;
+			sourceTree = "<group>";
+		};
+		CCDA3BE81FB87D2C00808FB4 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				CCDA3BE91FB87D3F00808FB4 /* Constants.swift */,
+				CCDA3BEB1FB87D5A00808FB4 /* Extensions.swift */,
+				CCB2769C1FB889B000734E9D /* Settings.swift */,
+				CCB276A41FB88ABF00734E9D /* Utils.swift */,
+				CCB276B31FB89B4100734E9D /* AlertHelper.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		CCDA3BED1FB87DA400808FB4 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				CCB276B51FB89E7D00734E9D /* feed */,
+				CCB2769E1FB88A5B00734E9D /* groups */,
+				CC61FBE41FB8799700321989 /* MainController.swift */,
+				CC61FBE51FB8799700321989 /* MainController.xib */,
+				CCDA3BF61FB87DD800808FB4 /* SettingsController.swift */,
+				CCDA3BF71FB87DD800808FB4 /* SettingsController.xib */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		DE4F07F63687C5C24C6113AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50004DBE606DBFF730713924 /* Pods_Palata6.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC61FBCC1FB8769500321989 /* Palata6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC61FBDF1FB8769500321989 /* Build configuration list for PBXNativeTarget "Palata6" */;
+			buildPhases = (
+				327247595CE0E687D954FCBF /* [CP] Check Pods Manifest.lock */,
+				CC61FBC91FB8769500321989 /* Sources */,
+				CC61FBCA1FB8769500321989 /* Frameworks */,
+				CC61FBCB1FB8769500321989 /* Resources */,
+				41C0C497868D1576E57FFA11 /* [CP] Embed Pods Frameworks */,
+				96CEADE30DF5E6AD477E3732 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Palata6;
+			productName = Palata6;
+			productReference = CC61FBCD1FB8769500321989 /* Palata6.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC61FBC51FB8769500321989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ru.arsanima;
+				TargetAttributes = {
+					CC61FBCC1FB8769500321989 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC61FBC81FB8769500321989 /* Build configuration list for PBXProject "Palata6" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC61FBC41FB8769500321989;
+			productRefGroup = CC61FBCE1FB8769500321989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC61FBCC1FB8769500321989 /* Palata6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC61FBCB1FB8769500321989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB276CB1FB8ADBC00734E9D /* FeedCell.xib in Resources */,
+				CC61FBE31FB877A300321989 /* LaunchScreen.xib in Resources */,
+				CCDA3BF11FB87DB800808FB4 /* GroupController.xib in Resources */,
+				CCB276F31FB8C33E00734E9D /* noavatar.jpg in Resources */,
+				CC61FBD81FB8769500321989 /* Assets.xcassets in Resources */,
+				CCB276BC1FB89FD200734E9D /* WebViewController.xib in Resources */,
+				CCDA3BF51FB87DC900808FB4 /* FeedController.xib in Resources */,
+				CCDA3BF91FB87DD800808FB4 /* SettingsController.xib in Resources */,
+				CCB276A11FB88A7C00734E9D /* GroupCell.xib in Resources */,
+				CC61FBE71FB8799700321989 /* MainController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		327247595CE0E687D954FCBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Palata6-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41C0C497868D1576E57FFA11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Palata6/Pods-Palata6-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActiveLabel/ActiveLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyVK/SwiftyVK.framework",
+				"${BUILT_PRODUCTS_DIR}/moa/moa.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActiveLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyVK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/moa.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Palata6/Pods-Palata6-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96CEADE30DF5E6AD477E3732 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Palata6/Pods-Palata6-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC61FBC91FB8769500321989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB276A21FB88A7C00734E9D /* GroupCell.swift in Sources */,
+				CCB276BB1FB89FD200734E9D /* WebViewController.swift in Sources */,
+				CCB276AE1FB8959400734E9D /* VkResponse.swift in Sources */,
+				CCB276B01FB896D400734E9D /* VkItems.swift in Sources */,
+				CCB276BE1FB8A21200734E9D /* VkPost.swift in Sources */,
+				CCB276CC1FB8ADBC00734E9D /* FeedCell.swift in Sources */,
+				CCB276E51FB8B21B00734E9D /* VkArrayResponse.swift in Sources */,
+				CCB276AA1FB8956400734E9D /* VkPublic.swift in Sources */,
+				CC61FBE61FB8799700321989 /* MainController.swift in Sources */,
+				CCDA3BF41FB87DC900808FB4 /* FeedController.swift in Sources */,
+				CCB2769D1FB889B000734E9D /* Settings.swift in Sources */,
+				CCB276B21FB896ED00734E9D /* VkUser.swift in Sources */,
+				CC61FBD11FB8769500321989 /* AppDelegate.swift in Sources */,
+				CCDA3BF81FB87DD800808FB4 /* SettingsController.swift in Sources */,
+				CCB276A81FB8907100734E9D /* PalataBaseController.swift in Sources */,
+				CCB276A51FB88ABF00734E9D /* Utils.swift in Sources */,
+				CCB276B41FB89B4100734E9D /* AlertHelper.swift in Sources */,
+				CCB276C21FB8A24900734E9D /* VkViews.swift in Sources */,
+				CCDA3BEA1FB87D3F00808FB4 /* Constants.swift in Sources */,
+				CCB276AC1FB8957B00734E9D /* VkError.swift in Sources */,
+				CCB276C01FB8A23300734E9D /* VkLikes.swift in Sources */,
+				CCB276C41FB8A25C00734E9D /* VkAttachments.swift in Sources */,
+				CCDA3BF01FB87DB800808FB4 /* GroupController.swift in Sources */,
+				CCB276C61FB8A26C00734E9D /* VkPhoto.swift in Sources */,
+				CCB276EF1FB8BDEB00734E9D /* VkErrorResponse.swift in Sources */,
+				CCDA3BEC1FB87D5A00808FB4 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC61FBDD1FB8769500321989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC61FBDE1FB8769500321989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC61FBE01FB8769500321989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8476822FD8FF38825E7B6EE /* Pods-Palata6.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A82ANPWWK;
+				INFOPLIST_FILE = Palata6/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.arsanima.Palata6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CC61FBE11FB8769500321989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0444EBB7F9DBA417FF8D095 /* Pods-Palata6.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A82ANPWWK;
+				INFOPLIST_FILE = Palata6/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.arsanima.Palata6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC61FBC81FB8769500321989 /* Build configuration list for PBXProject "Palata6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC61FBDD1FB8769500321989 /* Debug */,
+				CC61FBDE1FB8769500321989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC61FBDF1FB8769500321989 /* Build configuration list for PBXNativeTarget "Palata6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC61FBE01FB8769500321989 /* Debug */,
+				CC61FBE11FB8769500321989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC61FBC51FB8769500321989 /* Project object */;
+}
